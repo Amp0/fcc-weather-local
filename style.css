@@ -1,0 +1,41 @@
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background-color: rgb(55, 55, 55);
+  color: white;
+}
+
+.content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.city {
+  font-family: 'Fjalla One';
+  text-align: center;
+  font-size: 35px;
+}
+
+.logoWeather {
+  text-align: center;
+  font-size: 150px;
+}
+
+.weatherDescription {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans';
+}
+
+#weatherTitle {
+ font-size: 40px;
+ font-family: 'Fjalla One';
+ text-align: center;
+}
+
+.fa-spinner {
+  animation : 1s rotate infinite linear;
+}

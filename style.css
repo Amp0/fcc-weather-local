@@ -30,6 +30,12 @@ body {
   font-family: 'Open Sans';
 }
 
+.weatherTemp {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Open Sans';
+}
+
 #weatherTitle {
  font-size: 40px;
  font-family: 'Fjalla One';

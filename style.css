@@ -36,6 +36,24 @@ body {
   font-family: 'Open Sans';
 }
 
+.btn-change {
+  background : rgb(55, 55, 55);
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn-change:focus {
+  color:white;
+}
+
+.btn-change:hover {
+  color : rgb(55, 55, 55);
+  background : white;
+}
+
+
+
 #weatherTitle {
  font-size: 40px;
  font-family: 'Fjalla One';
